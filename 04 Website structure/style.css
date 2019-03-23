@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+div.wrapper {
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
+/* Navigation */
+nav {
+  text-align: right;
+  margin: 20px 0;
+}
+
+nav a {
+  display: inline-block;
+  font-size: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  color: brown;
+  padding: 10px 25px;
+  margin: 0 15px;
+  transition: .1s;
+}
+
+nav a:hover {
+  border-bottom: 2px solid brown;
+}
+
+nav a.btn4 {
+  border: 2px solid brown;
+  margin: 0 50px 0 100px;
+}
+
+nav a.btn4:hover {
+  color: white;
+  background-color: brown;
+}
+
+/* Header */
+header {
+  height: 200px;
+  background-color: cadetblue;
+}
+
+main {
+  min-height: 50vh;
+  background-color: burlywood;
+}
+
+footer {
+  min-height: 100px;
+  background-color: darkcyan;
+}
