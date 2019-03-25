@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+header {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+header div {
+  float: left;
+  width: 20%;
+  height: 200px;
+  margin: 2.5%;
+  background-color: royalblue;
+  cursor: pointer;
+}
+
+header div:nth-child(1) {
+  background-color: greenyellow
+}
+
+header div:nth-child(2) {
+  background-color: firebrick
+}
+
+header div:nth-child(3) {
+  background-color: deepskyblue
+}
+
+header div:nth-child(4) {
+  background-color: coral
+}
+
+header div:nth-child(1):hover {
+  background-color: gray
+}
+
+header div:nth-child(2):hover {
+  background-color: cadetblue
+}
+
+header div:nth-child(3):hover {
+  background-color: green
+}
+
+header div:nth-child(4):hover {
+  background-color: fuchsia
+}
+
+nav.top {
+  padding: 10px 0;
+  margin: 20px 0;
+  background-color: rgb(128, 128, 128);
+}
+
+nav.top ul {
+  max-width: 1280px;
+  margin: 0 auto;
+  list-style: none;
+}
+
+nav.top ul li {
+  float: left;
+  width: 15%;
+  margin-left: 20px;
+}
+
+nav.top ul li a {
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 10px;
+  color: white;
+  border: 2px solid white;
+}
+
+nav.top ul li a:hover {
+  border-color: yellowgreen;
+  color: yellow
+}
+
+div.blog {
+  max-width: 1280px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+main.articles {
+  width: 65%;
+  padding: 0 20px;
+  float: left;
+}
+
+article h1 {
+  text-transform: uppercase;
+}
+
+article img {
+  float: left;
+  margin: 20px 20px 20px 0;
+}
+
+article p {
+  margin-top: 20px;
+  text-align: justify;
+}
+
+aside {
+  width: 25%;
+  float: left;
+  margin-left: 20px;
+}
+
+aside section.contact {
+  background-color: #ddd;
+  padding: 15px 15px
+}
+
+aside section.contact p {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+aside section.contact ul {
+  list-style: none;
+}
+
+aside section.contact ul li {
+  padding: 5px;
+}
+
+aside section.contact ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+aside section.contact ul li a:hover {
+  color: #4267B2;
+}
+
+aside section.contact ul li i.fas {
+  margin-right: 10px;
+}
+
+aside section.contact ul li i.fab {
+  margin-right: 10px;
+  color: #4267B2;
+}
+
+footer {
+  padding: 20px 0;
+  color: white;
+  text-align: center;
+  background-color: #444;
+  margin-top: 40px;
+}
