@@ -19,3 +19,6 @@ https://arekpl28.github.io/beginner-web-developer/04%20Website%20structure/index
 
 ### 05 Simple webside
 https://arekpl28.github.io/beginner-web-developer/05%20Simple%20webside/index.html
+
+### 06 Menu structure ul and li
+https://arekpl28.github.io/beginner-web-developer/06%20Menu%20structure%20ul%20and%20li/index.html
