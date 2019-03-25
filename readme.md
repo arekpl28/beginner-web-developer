@@ -22,3 +22,6 @@ https://arekpl28.github.io/beginner-web-developer/05%20Simple%20webside/index.ht
 
 ### 06 Menu structure ul and li
 https://arekpl28.github.io/beginner-web-developer/06%20Menu%20structure%20ul%20and%20li/index.html
+
+### 07 Navigating using float
+https://arekpl28.github.io/beginner-web-developer/07%20Navigating%20using%20float/index.html
