@@ -25,3 +25,6 @@ https://arekpl28.github.io/beginner-web-developer/06%20Menu%20structure%20ul%20a
 
 ### 07 Navigating using float
 https://arekpl28.github.io/beginner-web-developer/07%20Navigating%20using%20float/index.html
+
+### 08 Practical project, page structure and menu
+https://arekpl28.github.io/beginner-web-developer/08%20Practical%20project,%20page%20structure%20and%20menu/index.html
