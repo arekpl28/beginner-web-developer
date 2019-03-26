@@ -28,3 +28,6 @@ https://arekpl28.github.io/beginner-web-developer/07%20Navigating%20using%20floa
 
 ### 08 Practical project, page structure and menu
 https://arekpl28.github.io/beginner-web-developer/08%20Practical%20project,%20page%20structure%20and%20menu/index.html
+
+### 09 Position relative, fixed and absolute
+https://arekpl28.github.io/beginner-web-developer/09%20Position%20relative,%20fixed%20and%20absolute/index.html
