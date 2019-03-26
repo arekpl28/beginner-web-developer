@@ -1,0 +1,60 @@
+body {
+  background-color: red;
+}
+
+div {
+  font-size: 30px;
+  color: white;
+}
+
+.s1 {
+  display: block;
+}
+
+.s2,
+.s3,
+.s4 {
+  display: none;
+}
+
+@media (max-width:1500px) {
+  body {
+    background-color: green;
+  }
+
+  .s2 {
+    display: block;
+  }
+
+  .s1 {
+    display: none;
+  }
+}
+
+@media (max-width:1000px) {
+  body {
+    background-color: blue;
+  }
+
+  .s3 {
+    display: block;
+  }
+
+  .s2 {
+    display: none;
+  }
+}
+
+@media (max-width:500px) {
+  body {
+    background-color: black;
+  }
+
+  .s4 {
+    display: block;
+  }
+
+  .s3 {
+    display: none;
+  }
+}
