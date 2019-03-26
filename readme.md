@@ -31,3 +31,6 @@ https://arekpl28.github.io/beginner-web-developer/08%20Practical%20project,%20pa
 
 ### 09 Position relative, fixed and absolute
 https://arekpl28.github.io/beginner-web-developer/09%20Position%20relative,%20fixed%20and%20absolute/index.html
+
+## 10 Media querise color change
+https://arekpl28.github.io/beginner-web-developer/10%20Media%20querise%20color%20change/index.html
