@@ -1,0 +1,819 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  font-family: "Saira Condensed", sans-serif;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+header > * {
+  position: absolute;
+}
+
+header {
+  position: relative;
+  height: 100vh;
+  max-width: 1920px;
+  margin: 0 auto;
+  background-color: #29a6dc;
+}
+
+header div.welcome {
+  top: 7%;
+  left: 5%;
+  width: 90%;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  cursor: default;
+}
+
+header div.welcome p {
+  font-size: 4rem;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+header div.welcome h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+header div.welcome h2 {
+  font-size: 2rem;
+  font-weight: normal;
+}
+
+header div.welcome button {
+  font-size: 1.2rem;
+  line-height: 3.2rem;
+  padding: 0 16px;
+  margin-top: 20px;
+  border: 1px solid white;
+  font-family: "Saira", sans-serif;
+  font-weight: normal;
+  text-transform: uppercase;
+  background-color: transparent;
+  color: white;
+}
+
+header img {
+  bottom: 0%;
+  right: 67px;
+  height: 45vh;
+}
+
+@media (orientation: portrait) and (min-width: 320px) {
+  header div.welcome h1 {
+    font-size: 2.4rem;
+  }
+
+  header div.welcome h2 {
+    font-size: 2.4rem;
+  }
+
+  header div.welcome button {
+    font-size: 1.6rem;
+    line-height: 40px;
+    margin-top: 20px;
+  }
+
+  header img {
+    right: 61px;
+  }
+}
+
+@media (orientation: portrait) and (min-width: 360px) {
+  header img {
+    right: 68px;
+  }
+}
+
+@media (orientation: portrait) and (min-width: 374px) {
+  header div.welcome p {
+    font-size: 5rem;
+  }
+
+  header div.welcome h1 {
+    font-size: 3rem;
+  }
+
+  header div.welcome h2 {
+    font-size: 3rem;
+  }
+
+  header div.welcome button {
+    font-size: 2rem;
+  }
+  header img {
+    right: 71px;
+  }
+}
+
+@media (orientation: portrait) and (min-width: 408px) {
+  header div.welcome button {
+    line-height: 50px;
+    margin-top: 50px;
+  }
+
+  header img {
+    right: 62px;
+  }
+}
+
+@media (orientation: portrait) and (min-width: 768px) {
+  header div.welcome p {
+    font-size: 8rem;
+  }
+
+  header div.welcome h1 {
+    font-size: 4rem;
+  }
+
+  header div.welcome h2 {
+    font-size: 4rem;
+  }
+  header div.welcome button {
+    font-size: 3rem;
+    line-height: 60px;
+    margin-top: 60px;
+  }
+
+  header img {
+    right: 206px;
+  }
+}
+
+@media (orientation: portrait) and (min-width: 1024px) {
+  header div.welcome p {
+    font-size: 10rem;
+  }
+
+  header div.welcome h1 {
+    font-size: 6rem;
+  }
+
+  header div.welcome h2 {
+    font-size: 6rem;
+  }
+
+  header div.welcome button {
+    font-size: 4rem;
+    line-height: 80px;
+    margin-top: 80px;
+  }
+
+  header img {
+    right: 274px;
+  }
+}
+
+@media (orientation: landscape) {
+  header div.welcome {
+    top: 15%;
+    left: 10%;
+    right: 50%;
+    text-align: left;
+  }
+
+  header div.welcome button {
+    margin-top: 30px;
+  }
+
+  header img {
+    right: 5%;
+    height: 90vh;
+  }
+}
+
+@media (orientation: landscape) and (min-width: 640px) {
+  header div.welcome h1 {
+    font-size: 2.4rem;
+  }
+
+  header div.welcome h2 {
+    font-size: 2.4rem;
+  }
+}
+
+@media (orientation: landscape) and (min-width: 1024px) {
+  header div.welcome {
+    top: 20%;
+  }
+
+  header div.welcome p {
+    font-size: 5.6rem;
+  }
+
+  header div.welcome h1 {
+    font-size: 3.4rem;
+  }
+
+  header div.welcome h2 {
+    font-size: 3.4rem;
+  }
+
+  header div.welcome button {
+    font-size: 2.8rem;
+    line-height: 70px;
+    margin-top: 40px;
+  }
+
+  header img {
+    right: 0%;
+    height: 90vh;
+  }
+}
+
+@media (orientation: landscape) and (min-width: 1366px) {
+  header div.welcome {
+    top: 25%;
+  }
+
+  header div.welcome p {
+    font-size: 10rem;
+  }
+
+  header div.welcome h1 {
+    font-size: 5rem;
+  }
+
+  header div.welcome h2 {
+    font-size: 5rem;
+  }
+
+  header div.welcome button {
+    font-size: 3.2rem;
+    line-height: 70px;
+    padding: 10px 20px;
+    margin-top: 40px;
+  }
+}
+
+@media (orientation: landscape) and (min-width: 1600px) {
+  header div.welcome {
+    top: 15%;
+  }
+
+  header div.welcome p {
+    font-size: 12rem;
+  }
+
+  header div.welcome h1 {
+    font-size: 6rem;
+  }
+
+  header div.welcome h2 {
+    font-size: 6rem;
+  }
+
+  header div.welcome button {
+    font-size: 3.6rem;
+    line-height: 90px;
+    padding: 10px 30px;
+  }
+}
+
+@media (min-width: 1024px) {
+  header div.welcome button {
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+  header div.welcome button:hover {
+    background-color: #fff;
+    color: #111;
+  }
+}
+
+/* section of my features */
+
+section.features {
+  min-height: 30vh;
+  max-width: 1600px;
+  margin: 50px auto 30px;
+  padding: 5%;
+  text-align: center;
+}
+section.features h1 {
+  font-size: 2.6rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+section.features div.feature img {
+  width: 100%;
+  max-width: 375px;
+  margin: 5px 0;
+}
+section.features div.feature h2 {
+  font-size: 2rem;
+  padding-bottom: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+section.features div.feature p {
+  font-size: 1.2rem;
+  font-family: "Saira", sans-serif;
+  font-weight: 300;
+}
+
+@media (min-width: 360px) {
+  section.features h1 {
+    font-size: 3rem;
+  }
+  section.features div.feature h2 {
+    font-size: 2.4rem;
+  }
+  section.features div.feature p {
+    font-size: 1.4rem;
+  }
+}
+
+@media (min-width: 768px) {
+  section.features h1 {
+    font-size: 3.6rem;
+  }
+
+  section.features div.feature h2 {
+    font-size: 2.8rem;
+  }
+
+  section.features div.feature p {
+    font-size: 1.8rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  section.features {
+    padding: 5% 2%;
+  }
+  section.features div.feature {
+    float: left;
+    width: 33%;
+    padding: 20px;
+  }
+  section.features h1 {
+    font-size: 4.2rem;
+  }
+
+  section.features div.feature h2 {
+    font-size: 2.2rem;
+  }
+
+  section.features div.feature p {
+    font-size: 1.6rem;
+    line-height: 140%;
+    text-align: justify;
+  }
+}
+
+@media (min-width: 1600px) {
+  section.features {
+    padding: 2% 2%;
+  }
+
+  section.features div.feature {
+    padding: 20px;
+  }
+
+  section.features h1 {
+    font-size: 6rem;
+  }
+
+  section.features div.feature h2 {
+    font-size: 2.3rem;
+  }
+
+  section.features div.feature p {
+    font-size: 2rem;
+    line-height: 160%;
+  }
+}
+
+section.portfolio {
+  padding-bottom: 10px;
+  background-color: #1e1e1e;
+}
+
+section.portfolio h1 {
+  font-size: 2.6rem;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 15px 20px;
+  color: white;
+}
+
+section.portfolio div.project {
+  max-width: 1600px;
+  margin: 0 auto 30px;
+}
+
+section.portfolio div.project div.web img {
+  width: 100%;
+}
+
+section.portfolio div.project div.about {
+  padding: 10px 20px 20px 0;
+  font-family: "Saira", sans-serif;
+  font-weight: normal;
+  color: white;
+}
+
+section.portfolio div.project div.about h2 {
+  font-size: 1.8rem;
+  margin-bottom: 12px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid white;
+  text-indent: 20px;
+}
+
+section.portfolio div.project div.about p {
+  font-size: 1.2rem;
+  padding-left: 20px;
+  text-align: justify;
+}
+
+section.portfolio div.project:nth-of-type(odd) {
+  background-color: #ff4f2c;
+}
+
+section.portfolio div.project:nth-of-type(even) {
+  background-color: #29a6dc;
+}
+
+@media (min-width: 768px) {
+  section.portfolio h1 {
+    font-size: 3.6rem;
+  }
+
+  section.portfolio div.project {
+    margin-bottom: 35px;
+  }
+
+  section.portfolio div.project div.about {
+    padding: 10px 40px 20px 0;
+  }
+
+  section.portfolio div.project div.about h2 {
+    font-size: 2.8rem;
+    text-indent: 40px;
+  }
+
+  section.portfolio div.project div.about p {
+    font-size: 1.8rem;
+    padding-left: 40px;
+  }
+}
+
+@media (orientation: landscape) {
+  section.portfolio div.project div.web,
+  section.portfolio div.project div.about {
+    float: left;
+    width: 50%;
+  }
+
+  section.portfolio div.project div.web img {
+    display: block;
+    width: 100%;
+  }
+  section.portfolio div.project:nth-of-type(even) div.web {
+    float: right;
+  }
+  section.portfolio div.project:nth-of-type(even) div.about {
+    padding: 10px 0px 20px 40px;
+  }
+  section.portfolio div.project:nth-of-type(even) div.about h2 {
+    text-indent: 0;
+  }
+  section.portfolio div.project:nth-of-type(even) div.about p {
+    padding-left: 0;
+    padding-right: 20px;
+  }
+}
+
+@media (orientation: landscape) and (min-width: 1400px) {
+  section.portfolio h1 {
+    font-size: 4.2rem;
+    padding: 20px 0;
+  }
+
+  section.portfolio div.project {
+    margin-bottom: 35px;
+  }
+
+  section.portfolio div.project div.about {
+    padding: 10px 40px 20px 0;
+  }
+
+  section.portfolio div.project div.about h2 {
+    padding-top: 40px;
+    margin-bottom: 30px;
+  }
+
+  section.portfolio div.project div.about p {
+    font-size: 1.8rem;
+    padding-left: 40px;
+  }
+}
+
+section.slogan {
+  background-image: url(images/motto.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  text-align: center;
+  color: white;
+}
+section.slogan div.bg {
+  padding: 30px 15px;
+  background-color: rgba(0, 63, 114, 0.5);
+}
+section.slogan h1 {
+  font-size: 2.6rem;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+section.slogan p {
+  font-size: 1.6rem;
+  font-family: "Saira", sans-serif;
+}
+section.slogan p.author {
+  font-size: 1.1rem;
+  margin-top: 20px;
+}
+
+@media (orientation: landscape) {
+  section.slogan p {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  section.slogan h1 {
+    font-size: 3.6rem;
+    padding-top: 30px;
+    margin-bottom: 40px;
+  }
+
+  section.slogan p {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.8rem;
+  }
+
+  section.slogan p.author {
+    font-size: 1.4rem;
+    margin-top: 22px;
+  }
+}
+
+@media (min-width: 1024px) {
+  section.slogan h1 {
+    font-size: 5.6rem;
+    padding-top: 80px;
+    margin-bottom: 40px;
+  }
+
+  section.slogan p {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2.8rem;
+  }
+
+  section.slogan p.author {
+    margin-top: 40px;
+    margin-bottom: 80px;
+    font-size: 2rem;
+  }
+}
+
+/* Section hobby */
+
+section.hobby {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+section.hobby h1 {
+  padding: 15px 20px;
+  font-size: 2.6rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+section.hobby div.item {
+  height: 25vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+section.hobby div.item:nth-of-type(1) {
+  background-image: url(images/hobby1.jpg);
+}
+
+section.hobby div.item:nth-of-type(2) {
+  background-image: url(images/hobby2.jpg);
+}
+
+section.hobby div.item:nth-of-type(3) {
+  background-image: url(images/hobby3.jpg);
+}
+
+section.hobby div.item:nth-of-type(4) {
+  background-image: url(images/hobby4.jpg);
+}
+
+section.hobby div.item p {
+  font-size: 1.4rem;
+  padding: 5px 0;
+  font-family: "Saira", sans-serif;
+  color: white;
+  text-align: center;
+  text-shadow: 0 0 4px #000;
+  background-color: rgba(0, 63, 114, 0.4);
+}
+
+@media (min-width: 533px) {
+  section.hobby div.item {
+    float: left;
+    width: 50%;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+
+@media (min-width: 768px) {
+  section.hobby h1 {
+    padding: 30px;
+    font-size: 3.6rem;
+  }
+
+  section.hobby div.item p {
+    padding: 15px 0;
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  section.hobby div.item {
+    height: 40vh;
+    background-size: 100%;
+    transition: 1s;
+  }
+
+  section.hobby div.item:hover {
+    background-size: 110%;
+  }
+
+  section.hobby div.item p {
+    padding: 0;
+    font-size: 3rem;
+    line-height: 40vh;
+    opacity: 0;
+    transition: 1s;
+    cursor: default;
+  }
+  section.hobby div.item:hover p {
+    opacity: 1;
+  }
+}
+
+@media (min-width: 1600px) {
+  section.hobby h1 {
+    padding: 40px;
+    font-size: 5.2rem;
+  }
+
+  section.hobby div.item p {
+    font-size: 4rem;
+  }
+}
+
+/* Contact */
+
+section.contact {
+  padding: 30px 20px;
+  background-color: #111;
+}
+section.contact h1 {
+  margin-bottom: 15px;
+  font-size: 2.6rem;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+}
+section.contact div.wrap {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+section.contact div.wrap form input,
+section.contact div.wrap form textarea,
+section.contact div.wrap form button {
+  width: 100%;
+  margin-bottom: 25px;
+  padding: 5px;
+  font-size: 1.6rem;
+  font-family: "Saira", sans-serif;
+}
+section.contact div.wrap form input {
+  height: 36px;
+}
+section.contact div.wrap form textarea {
+  height: 120px;
+}
+section.contact div.wrap form button {
+  font-size: 18px;
+  line-height: 40px;
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+}
+section.contact div.wrap div.socials {
+  padding: 20px;
+  font-size: 0;
+}
+section.contact div.wrap div.socials div.social {
+  margin-bottom: 20px;
+}
+section.contact div.wrap div.socials div.social img {
+  float: left;
+  height: 36px;
+}
+section.contact div.wrap div.socials div.social span {
+  float: left;
+  padding-left: 20px;
+  font-size: 1.6rem;
+  line-height: 36px;
+  font-family: "Saira", sans-serif;
+  color: white;
+}
+
+@media (min-width: 533px) {
+  section.contact div.wrap div.socials div.social {
+    display: inline-block;
+    width: 50%;
+  }
+}
+@media (min-width: 1024px) {
+  section.contact h1 {
+    margin-bottom: 15px;
+    font-size: 3.6rem;
+  }
+  section.contact div.wrap form,
+  section.contact div.wrap div.socials {
+    float: left;
+    width: 50%;
+    padding: 0 20px;
+  }
+  section.contact div.wrap form input {
+    height: 46px;
+    font-size: 2.4rem;
+  }
+  section.contact div.wrap form textarea {
+    font-size: 2.4rem;
+  }
+  section.contact div.wrap form button {
+    line-height: 40px;
+    font-size: 2.2rem;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+  }
+  section.contact div.wrap div.socials div.social img {
+    height: 60px;
+  }
+  section.contact div.wrap div.socials div.social span {
+    line-height: 60px;
+  }
+  section.contact div.wrap div.socials div.social {
+    display: block;
+    padding-bottom: 10px;
+    margin: 0 auto;
+  }
+}
+
+footer {
+  padding: 20px;
+  font-size: 2rem;
+  font-family: "Saira", sans-serif;
+  text-align: center;
+  background-color: #29a9df;
+}
